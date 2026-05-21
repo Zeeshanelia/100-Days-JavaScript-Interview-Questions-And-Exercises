@@ -1,0 +1,1 @@
+// Q: writw for loop that skip even numbers between 1 and 20
