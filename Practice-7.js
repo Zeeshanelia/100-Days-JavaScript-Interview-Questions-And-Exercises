@@ -73,14 +73,7 @@ console.log(findMax(10, 25)); // 25
 
 
 
-// Q:
 
-
-
-
-
-
-// Q:
 
 
 
