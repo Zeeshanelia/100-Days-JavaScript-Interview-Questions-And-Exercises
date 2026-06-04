@@ -1,0 +1,60 @@
+// Q : Find Second Largest Number
+
+
+const arr = [10, 50, 30, 80, 60];
+
+const sorted = [...arr].sort((a, b) => b - a);
+console.log(sorted[1]); // 60
+
+
+// Q : Check Palindrome
+
+const str = "madam";
+//Check whether a string reads the same forwards and backwards.
+
+const reversed = str.split("").reverse().join("");
+
+if (str === reversed) {
+  console.log("Palindrome");
+} else {
+  console.log("Not Palindrome");
+}
+
+
+
+// Q : Count Vowels
+
+
+const text = "JavaScript";
+// Count the number of vowels in a string.
+
+let count = 0;
+
+for (const char of text.toLowerCase()) {
+  if ("aeiou".includes(char)) {
+    count++;
+  }
+}
+console.log(count); //  3
+
+
+
+
+// Q : Remove Duplicate Values
+
+const arr = [1, 2, 2, 3, 3, 4];
+// Create a new array without duplicates.
+
+const unique = [...new Set(arr)];
+console.log(unique);  // [1, 2, 3, 4]
+
+
+// Q :  Check if Two Arrays Are Equal
+
+const arr1 = [1, 2, 3];
+const arr2 = [1, 2, 3];
+// Determine whether two arrays contain the same values in the same order.
+
+const result =
+  JSON.stringify(arr1) === JSON.stringify(arr2);
+console.log(result); // true
